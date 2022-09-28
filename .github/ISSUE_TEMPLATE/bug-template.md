@@ -1,23 +1,17 @@
 ---
 name: Bug report
-about: If you're actually looking for support, see "ask a question".
+about: Please use this form to report any bugs or issues
 labels: bug, needs-triage
 ---
 
-### Does your log mention database corruption?
-
-If your Syncthing log reports panics because of database corruption it is
-most likely a fault with your system's storage or memory. Affected log
-entries will contain lines starting with `panic: leveldb`. You will need to
-delete the index database to clear this, by running `syncthing
--reset-database`.
-
 ### Include required information
 
-Please be sure to include at least:
+Before we can diagnose your issue, please include the following pieces of information:
 
- - which version of Syncthing and what operating system you are using
- - browser and version, if applicable
- - what happened,
- - what you expected to happen instead, and
- - any steps to reproduce the problem.
+ - What device are you currently on (e.g. desktop computer, mobile)
+ - What OS are you running on your device (e.g. Windows)
+ - Which browser and version are you using (tip: You can often find this by selection the 'help' and 'about ...' option in your browser)
+ - Describe the bug (e.g. no images were loading)
+ - Describe the steps to reproduce the bug
+ - Is there any known work arounds for the bug?
+
