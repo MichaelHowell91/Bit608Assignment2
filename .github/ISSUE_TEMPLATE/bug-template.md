@@ -1,11 +1,3 @@
----
-name: Bug Template
-about: To report bugs
-title: "[BUG]"
-labels: ''
-assignees: ''
-
----
 
 ---
 name: Bug report
