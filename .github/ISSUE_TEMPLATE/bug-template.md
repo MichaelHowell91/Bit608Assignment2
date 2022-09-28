@@ -1,4 +1,3 @@
-
 ---
 name: Bug report
 about: If you're actually looking for support, see "ask a question".
